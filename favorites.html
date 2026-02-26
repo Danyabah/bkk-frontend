@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="content-zone">
+      <!-- ЕСЛИ ПУСТО!!! -->
+      <!-- <section class="favorites-empty">
+        <h2 class="favorites-empty__title">В избранном пока пусто</h2>
+        <p class="sub-2 favorites-empty__sub-2">
+          <span> Добавляйте интересные материалы с помощью</span>
+          <span
+            ><svg
+              width="12"
+              height="16"
+              viewBox="0 0 12 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1 2.5006C1.00001 1.67063 1.67432 1 2.5012 1L9.4988 1C10.3257 1 11 1.67064 11 2.5006L11 14.741L6 11.8244L1 14.741L1 2.5006Z"
+                stroke="#00395C"
+                stroke-opacity="0.8"
+                stroke-width="2"
+              />
+            </svg>
+          </span>
+        </p>
+        <a href="" class="favorites-empty__btn">
+          <span class="body-2 favorites-empty__body-2">Все материалы</span>
+          <span
+            ><svg
+              width="13"
+              height="12"
+              viewBox="0 0 13 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.59344 6.71135L5.29634 10.0085L6.71055 11.4227L12.4219 5.71134L6.71055 2.05265e-05L5.29634 1.41423L8.59345 4.71135L0.000588784 4.71135L0.000588959 6.71135L8.59344 6.71135Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+        </a>
+      </section> -->
+      <!-- ЕСЛИ ЗАПОЛНЕНЫ -->
+      <section class="main-block favorites-block">
+        <div class="main-block__top">
+          <h1 class="main-block-title">Избранное</h1>
+        </div>
+        <div class="main-block__body grid-4">
+          <a href="" class="main-block__item">
+            <button class="add-favorite-btn">
+              <svg
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.20537e-06 1.5006C5.24521e-06 0.670631 0.67432 7.15256e-07 1.5012 0L8.4988 4.17233e-07C9.32569 1.60933e-06 10 0.670636 10 1.5006L10 13.741L5 10.8244L0 13.741L2.20537e-06 1.5006Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </button>
+            <span class="main-block__item-icon"
+              ><svg
+                width="12"
+                height="15"
+                viewBox="0 0 12 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 5.41422C12 5.0164 11.8419 4.63487 11.5606 4.35357L7.64642 0.439343C7.36512 0.158037 6.98359 0 6.58576 0L1 1.07031e-05C0.447715 1.07031e-05 0 0.447726 0 1.00001V14C0 14.5523 0.447715 15 1 15H11C11.5523 15 12 14.5523 12 14V6.00001L12 5.99077V5.41422ZM10.7929 5.00001H7.5C7.22386 5.00001 7 4.77615 7 4.50001V1.20713L10.7929 5.00001ZM9 9.00002H2V8.00002H9V9.00002ZM2 12H7V11H2V12Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </span>
+            <div class="main-block__item__content">
+              <div class="main-block__item__top">
+                <p class="sub-2 main-block__item-sub-2">
+                  Распределение полномочий при рассмотрении входящих документов
+                </p>
+              </div>
+              <div class="main-block__item__bottom">
+                <span class="main-block__item-icon-link">
+                  <span
+                    ><svg
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.59295 6.71129L5.29585 10.0084L6.71006 11.4226L12.4214 5.71128L6.71006 -4.05087e-05L5.29585 1.41417L8.59296 4.71129L0.000100503 4.71129L0.000100678 6.71129L8.59295 6.71129Z"
+                        fill="#00395C"
+                        fill-opacity="0.8"
+                      />
+                    </svg>
+                  </span>
+                  <p class="body-1 main-block__item-body-1">
+                    Управление проектами
+                  </p>
+                </span>
+                <span class="main-block__item-user">
+                  <img src="" class="main-block__item-user-img" alt="" />
+                  <p class="body-2 main-block__item-user-body-2">
+                    Андрей Весник
+                  </p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="main-block__item">
+            <button class="add-favorite-btn">
+              <svg
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.20537e-06 1.5006C5.24521e-06 0.670631 0.67432 7.15256e-07 1.5012 0L8.4988 4.17233e-07C9.32569 1.60933e-06 10 0.670636 10 1.5006L10 13.741L5 10.8244L0 13.741L2.20537e-06 1.5006Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </button>
+            <span class="main-block__item-icon icon-orange"
+              ><svg
+                width="12"
+                height="15"
+                viewBox="0 0 12 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 5.41422C12 5.0164 11.8419 4.63487 11.5606 4.35357L7.64642 0.439343C7.36512 0.158037 6.98359 0 6.58576 0L1 1.07031e-05C0.447715 1.07031e-05 0 0.447726 0 1.00001V14C0 14.5523 0.447715 15 1 15H11C11.5523 15 12 14.5523 12 14V6.00001L12 5.99077V5.41422ZM10.7929 5.00001H7.5C7.22386 5.00001 7 4.77615 7 4.50001V1.20713L10.7929 5.00001ZM9 9.00002H2V8.00002H9V9.00002ZM2 12H7V11H2V12Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </span>
+            <div class="main-block__item__content">
+              <div class="main-block__item__top">
+                <p class="sub-2 main-block__item-sub-2">Новому сотруднику</p>
+                <p class="body-1 main-block__item-sub-body-1">
+                  обновлено вчера, 18:30
+                </p>
+              </div>
+              <div
+                class="main-block__item__bottom main-block__item__bottom-material"
+              >
+                <p class="body-2 main-block__item__bottom-body-2">
+                  Обновление в разделе, текст для примера в одну строку или
+                  несколько.
+                </p>
+                <div class="main-block__item-material">
+                  <span class="body-2 main-block__item-material-body-2"
+                    >11 материалов</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="main-block__item">
+            <button class="add-favorite-btn">
+              <svg
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.20537e-06 1.5006C5.24521e-06 0.670631 0.67432 7.15256e-07 1.5012 0L8.4988 4.17233e-07C9.32569 1.60933e-06 10 0.670636 10 1.5006L10 13.741L5 10.8244L0 13.741L2.20537e-06 1.5006Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </button>
+            <span class="main-block__item-icon"
+              ><svg
+                width="12"
+                height="15"
+                viewBox="0 0 12 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 5.41422C12 5.0164 11.8419 4.63487 11.5606 4.35357L7.64642 0.439343C7.36512 0.158037 6.98359 0 6.58576 0L1 1.07031e-05C0.447715 1.07031e-05 0 0.447726 0 1.00001V14C0 14.5523 0.447715 15 1 15H11C11.5523 15 12 14.5523 12 14V6.00001L12 5.99077V5.41422ZM10.7929 5.00001H7.5C7.22386 5.00001 7 4.77615 7 4.50001V1.20713L10.7929 5.00001ZM9 9.00002H2V8.00002H9V9.00002ZM2 12H7V11H2V12Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </span>
+            <div class="main-block__item__content">
+              <div class="main-block__item__top">
+                <p class="sub-2 main-block__item-sub-2">
+                  Распределение полномочий при рассмотрении входящих документов
+                </p>
+              </div>
+              <div class="main-block__item__bottom">
+                <span class="main-block__item-icon-link">
+                  <span
+                    ><svg
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.59295 6.71129L5.29585 10.0084L6.71006 11.4226L12.4214 5.71128L6.71006 -4.05087e-05L5.29585 1.41417L8.59296 4.71129L0.000100503 4.71129L0.000100678 6.71129L8.59295 6.71129Z"
+                        fill="#00395C"
+                        fill-opacity="0.8"
+                      />
+                    </svg>
+                  </span>
+                  <p class="body-1 main-block__item-body-1">
+                    Управление проектами
+                  </p>
+                </span>
+                <span class="main-block__item-user">
+                  <img src="" class="main-block__item-user-img" alt="" />
+                  <p class="body-2 main-block__item-user-body-2">
+                    Андрей Весник
+                  </p>
+                </span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="main-block__item">
+            <button class="add-favorite-btn">
+              <svg
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.20537e-06 1.5006C5.24521e-06 0.670631 0.67432 7.15256e-07 1.5012 0L8.4988 4.17233e-07C9.32569 1.60933e-06 10 0.670636 10 1.5006L10 13.741L5 10.8244L0 13.741L2.20537e-06 1.5006Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </button>
+            <span class="main-block__item-icon"
+              ><svg
+                width="12"
+                height="15"
+                viewBox="0 0 12 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 5.41422C12 5.0164 11.8419 4.63487 11.5606 4.35357L7.64642 0.439343C7.36512 0.158037 6.98359 0 6.58576 0L1 1.07031e-05C0.447715 1.07031e-05 0 0.447726 0 1.00001V14C0 14.5523 0.447715 15 1 15H11C11.5523 15 12 14.5523 12 14V6.00001L12 5.99077V5.41422ZM10.7929 5.00001H7.5C7.22386 5.00001 7 4.77615 7 4.50001V1.20713L10.7929 5.00001ZM9 9.00002H2V8.00002H9V9.00002ZM2 12H7V11H2V12Z"
+                  fill="#00395C"
+                  fill-opacity="0.8"
+                />
+              </svg>
+            </span>
+            <div class="main-block__item__content">
+              <div class="main-block__item__top">
+                <p class="sub-2 main-block__item-sub-2">
+                  Распределение полномочий при рассмотрении входящих документов
+                </p>
+              </div>
+              <div class="main-block__item__bottom">
+                <span class="main-block__item-icon-link">
+                  <span
+                    ><svg
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.59295 6.71129L5.29585 10.0084L6.71006 11.4226L12.4214 5.71128L6.71006 -4.05087e-05L5.29585 1.41417L8.59296 4.71129L0.000100503 4.71129L0.000100678 6.71129L8.59295 6.71129Z"
+                        fill="#00395C"
+                        fill-opacity="0.8"
+                      />
+                    </svg>
+                  </span>
+                  <p class="body-1 main-block__item-body-1">
+                    Управление проектами
+                  </p>
+                </span>
+                <span class="main-block__item-user">
+                  <img src="" class="main-block__item-user-img" alt="" />
+                  <p class="body-2 main-block__item-user-body-2">
+                    Андрей Весник
+                  </p>
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
